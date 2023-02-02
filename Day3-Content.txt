@@ -1,0 +1,21 @@
+                                                     LIST
+
+append()-add an element to end of list - l.append(4)
+extend()-add all elements of a list to another list - l.extend([1,2,3])
+insert-insert an item at the defined index - l.insert(1,22) 1 is index
+remove()-removes an item from the list - l.remove(22)
+pop()-removes and returns an element at given index
+clear()-removes all items from the list
+index()-returns the index of the first matched item
+count()-returns the count
+
+                                                    TUPLE
+
+ordered
+
+                                                    DICTIONARY
+
+Dictionary contains elements with two units - keys and values 
+keys must be unique
+
+ 

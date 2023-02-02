@@ -1,0 +1,11 @@
+IMMUTABLE:can be changed after creation
+int
+float
+string
+bool
+tuple
+
+MUTABLE:cant be changed after creation
+list
+set
+dictionary

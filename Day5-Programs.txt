@@ -1,0 +1,174 @@
+'''import random as r
+x = "Hello world"
+print(r.sample(x,5))
+
+a = [1,2,3,4,5]
+r.shuffle(a)
+print(a)
+
+b = [1,2,3,4,5,6,7]
+print(r.choice(b))
+
+s = "Welcome back"
+print(r.choice(s))
+
+print(r.random())
+print(r.randint(20,30))
+
+a = [2,4,6,8]
+print(r.choices(a,k=10))
+
+b = "Hello"
+print(r.choices(b,k=8))
+
+print(r.uniform(5,10))  '''
+#-----------------------------------
+'''z = dir(tuple)
+print(z)'''
+#-----------------------------------
+
+'''import calendar
+print(calendar.calendar(2023))
+
+print(calendar.month(2023,2))
+
+calendar.setfirstweekday(calendar.SUNDAY)
+print(calendar.month(2023,2))'''
+
+'''import datetime
+a = datetime.datetime.now()
+print(a)
+
+sv = a.strftime("%y")
+print("Year short form ",sv)
+fv = a.strftime("%Y")
+print("Year short form ",fv)'''
+
+#--------------------------------------------------FUNCTIONS------------------------------------------------------------
+
+'''def sample():
+    print("great day")
+    print("happy time")
+sample()
+print("today")
+sample()'''
+
+
+'''a ,b,c = 0,1,0
+print(a)
+for i in range(10):
+    a = b
+    b = c
+    c = b+a
+    print(c)'''
+
+#without argument , without return value
+'''def multi():
+    n1 = int(input("Number:"))
+    n2 = int(input("Number:"))
+    n3 = int(input("Number:"))
+    prod = n1*n2*n3
+    print(prod)
+    
+multi()'''
+
+#without argument , with return value
+'''def multi():
+    n1 = int(input("Number:"))
+    n2 = int(input("Number:"))
+    n3 = int(input("Number:"))
+    prod = n1*n2*n3
+    return prod
+
+result = multi()
+print(result)'''
+
+#with argument , without return value
+'''def multi(a,b,c):
+    prod =a*b*c
+    print(prod)
+
+n1 = int(input("Number:"))
+n2 = int(input("Number:"))
+n3 = int(input("Number:"))
+multi(n1,n2,n3)'''
+
+#with argument , with return value
+'''def multi(a,b,c):
+    prod =a*b*c
+    return prod
+
+n1 = int(input("Number:"))
+n2 = int(input("Number:"))
+n3 = int(input("Number:"))
+res = multi(n1,n2,n3)
+print(res)'''
+
+'''def lemons():
+    inhand = int(input("No of lemons :"))
+    if inhand>21:
+        print("You have ",inhand-21," excess lemons")
+    elif inhand<21:
+        print("You have to buy ",21-inhand," lemons")
+    else:print("You have enough lemons")
+lemons()'''
+
+'''def factors():
+    l = []
+    num = int(input("Enter a number :"))
+    for i in range(1,num+1):
+        if num%i == 0:
+            l.append(i)
+    return l
+
+res = factors()
+print(res)'''
+
+'''def digits_sum(num):
+    l = []
+    for i in str(num):
+        l.append(int(i))
+    return sum(l)
+num = int(input("Enter a number :"))
+print(digits_sum(num))'''
+
+
+'''def digits(n):
+    sum = 0
+    while n != 0:
+        rem = n%10
+        sum = sum+rem
+        n = n//10
+    return (sum)
+n = int(input("Enter a number :"))
+res = digits(n)
+print(res)'''
+
+'''def display():
+    n = int(input("Enter a number : "))
+    if n == 1:
+        display()
+    else:
+        print("Over")
+display()'''
+
+'''def fact(n):
+    if n == 0:
+        return 1
+    return n*fact(n-1)
+print(fact(3))'''
+
+
+
+
+'''n = int(input("Enter number: "))
+a = 0
+b = 1
+sum = 0
+count = 1
+while (count<=n):
+    print(sum,end=" ")
+    count += 1
+    a = b
+    b = sum
+    sum = a+b'''

@@ -1,0 +1,23 @@
+z = dir(list)
+print(z)
+#prints all the functions of the list
+
+                                              FUNCTIONS
+
+*Classifications:
+1.pre defined 
+2.user defined
+
+For code reusability , we use functions . we want to use a particular concept multiple times in our program
+ instead of writing the same code many times we can write it once , nclude that inside a function and can
+call the function whereever we need it.
+
+*Types:
+1.Functions without arguments, without return value
+2.Functions without arguments, with return value
+3.Functions with arguments, with return value
+4.Functions with arguments, without return value
+
+
+                                          RECURSIVE FUNCTION
+*A function which calls itself is called recursive function

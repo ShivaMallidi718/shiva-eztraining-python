@@ -20,3 +20,11 @@ TYPES OF INHERITANCE:
 2.Multiple inheritance
 3.Multilevel inheritance
 4.Heirarical inheritance
+
+Polymorphism:One item or same item used for different purposes
+Types :
+1.Overloading:
+	a)Operator overloading
+	b)Method overloading
+2.Overriding
+*If a method is defective or cannot be used inside derived class it will take it from its base class or parent class

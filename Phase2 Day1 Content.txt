@@ -1,0 +1,22 @@
+Four pillars of OOPs:
+1.Abstraction
+2.Encapsulation
+3.InheritAnce
+4.Polymorphism
+
+										ABSTRACTION:
+*Hiding the implementation part and showing only what is required is called Abstraction.
+*We can make class or method as abstract, opposite to abstract is concrete.
+										ENCAPSULATION
+*Binding data and function into a single entity
+1.Public-one class info can be accessed by any other class
+2.Private-can be used where it is declared/no in inhetited classes
+3.Protected-can be accessed where it got declared...whichever class inherited from this class there also we can use.
+										INHERITANCE
+*Base class and derived class. Derived class will inherit properties of base class
+*Base class-Parent class and Derived class-Child class
+TYPES OF INHERITANCE:
+1.Single inheritance
+2.Multiple inheritance
+3.Multilevel inheritance
+4.Heirarical inheritance
